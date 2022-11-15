@@ -13,8 +13,8 @@ function App() {
     const savedPokedex = JSON.parse(localStorage.getItem("pokedex"));
     if (savedPokedex && savedPokedex.length > 0) {
       startSearch(savedPokedex[0].name);
+      setPokedex(savedPokedex);
     }
-    setPokedex(savedPokedex);
   }, []);
 
   async function startSearch(searchKey) {
