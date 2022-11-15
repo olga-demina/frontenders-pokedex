@@ -68,11 +68,15 @@ function App() {
           )}
         </section>
         <section>
-          <Pokedex
-            pokedex={pokedex}
-            removeClick={removeFromPokedex}
-            showPokemon={startSearch}
-          />
+          {pokedex.length > 0 ? (
+            <Pokedex
+              pokedex={pokedex}
+              removeClick={removeFromPokedex}
+              showPokemon={startSearch}
+            />
+          ) : (
+            <h3>Non hai ancora aggiunto i pokemon qui</h3>
+          )}
         </section>
       </div>
     </main>
