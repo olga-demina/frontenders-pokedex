@@ -14,4 +14,4 @@ La web app è suddivisa in tre sezioni.
 Tecnologie
 La web app va sviluppata in plain JS o React. Per lo stile della web app va utilizzata la libreria Milligram CSS (https://milligram.io/#getting-started)
 
-Live preview: []
+- Live Site URL: [olga-demina-frontenders-pokedex.netlify.app](https://olga-demina-frontenders-pokedex.netlify.app/)
