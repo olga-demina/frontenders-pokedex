@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     const savedPokedex = JSON.parse(localStorage.getItem("pokedex"));
-    if (savedPokedex.length > 0) {
+    if (savedPokedex && savedPokedex.length > 0) {
       startSearch(savedPokedex[0].name);
     }
     setPokedex(savedPokedex);

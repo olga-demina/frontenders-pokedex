@@ -14,5 +14,4 @@ La web app è suddivisa in tre sezioni.
 Tecnologie
 La web app va sviluppata in plain JS o React. Per lo stile della web app va utilizzata la libreria Milligram CSS (https://milligram.io/#getting-started)
 
-Durata: 07 novembre - 16 novembre
-Discussione finale: tra il 17 e il 18 novembre
+Live preview: []
